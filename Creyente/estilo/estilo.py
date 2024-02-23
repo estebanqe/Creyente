@@ -5,13 +5,12 @@ from.color import text_color as text_color
 from.fonts import Font,FontWeight
 
 #Constants
-MAX_WIGTH ="700px"
+MAX_WIGTH ="560px"
 
 #Sizes
 STYLESHEETS =[
     "https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap",
     "https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap",
-    
 ]
 
 
@@ -30,7 +29,8 @@ class Size(Enum):
     UNO="0.5"
     SMALL = "1"  # 8px
     DEFAULT = "2"  # 16px/1em
-    MEDIUM = "3"  # 32px
+    MEDIUM = "3"
+    LARGE="5"# 32px
     BIG = "8"  # 48px
 
 #Styles

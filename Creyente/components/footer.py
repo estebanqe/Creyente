@@ -10,7 +10,7 @@ from Creyente.estilo.color import Color as Color
 def footer() -> rx.Component:
     return rx.vstack(
         rx.image(
-            src="logo_c.png",
+            src="logocrebla.png",
             height=EmSize.BIG.value,     #alto del logo
             weight=EmSize.BIG.value,      #ancho del logo
             padding_x=EmSize.SMALL.value,

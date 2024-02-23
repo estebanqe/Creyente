@@ -6,7 +6,7 @@ WHATSAPP="https://wa.me/message/OFJD43VAMZT2F1 "
 CATALOGO="https://creyentemadera.my.canva.site/creyentemadera"
 
 #Sponsors
-CARPINTERIA="https://i.pinimg.com/550x/18/06/e9/1806e905dae38fe08e95253b655f1f04.jpg"
+UBICACIN="https://maps.app.goo.gl/CieZ27tyF9YH337P8"
 GRAF_PYT="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png"
 LOGO_CREYENTE=""
 

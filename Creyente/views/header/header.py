@@ -34,22 +34,22 @@ def header() -> rx.Component:
             ),
             rx.hstack(
                 link_icon(
-                    "/icons/instagramAzul.svg",
+                    "/icons/instagram.svg",
                     const.INSTAGRAM,
                     "email@email.com"
                 ),
                 link_icon(
-                    "/icons/facebookAzul.svg",
+                    "/icons/facebook.svg",
                     const.FACEBOOK,
                     "facebook"
                 ),
                 link_icon(
-                    "/icons/book-azul.svg",
+                    "/icons/book-solid.svg",
                     const.CATALOGO,
                     "catalogo"
                 ),
                 link_icon(
-                    "/icons/whatsappAzul.svg",
+                    "/icons/whatsapp.svg",
                     const.WHATSAPP,
                     "whatssap"
                 ),
@@ -88,7 +88,7 @@ def header() -> rx.Component:
             color=text_color.BLANCO.value
         ),
         width="100%",
-        spacing=Size.DEFAULT.value,                     #espacion entre las 2 secciones
+        spacing=Size.LARGE.value,                     #espacion entre las 2 secciones
         align_items="start"                         #alinear todo al inicio
         
         

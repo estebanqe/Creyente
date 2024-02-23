@@ -29,7 +29,7 @@ def links() -> rx.Component:
         Link_buttton(
             "Tik-Tok",
             """Tu Visión, Nuestra Creación: Experiencia en Madera y Melamina.""",
-            "icons/linkedin.svg",
+            "icons/tiktok.svg",
             const.LINKEDLINK
             ),
             

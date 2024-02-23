@@ -3,22 +3,23 @@ import Creyente.constants as const
 from Creyente.components.title import title
 from Creyente.components.link_sponsor import Link_sponsor
 from Creyente.estilo.estilo import Size as Size
+from Creyente.estilo.color import text_color
 
 
 def sponsors() -> rx.Component:
     return rx.vstack(
-        title("Creyente & Hijos"),
+        title("Ubicación"),
        
           rx.hstack(
                Link_sponsor(
-                    "carpinteria.jpg",
-                    const.CARPINTERIA, 
-                    "simbolo de carpinteria"        
+                    "location.svg",
+                    const.UBICACIN, 
+                    "simbolo de ubicación"        
                ),
-               Link_sponsor(
-                    "logo_c.png",
-                    const.CARPINTERIA, 
-                    "simbolo de carpinteria"        
+               rx.text(
+                   "Av. beltran frente al campamento Panavial  San Antonio",
+                   color=text_color.BLANCO.value,
+                   
                ),
            spacing=Size.BIG.value,
            #columns=[1,2],
