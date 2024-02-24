@@ -1,9 +1,9 @@
 import reflex as rx
 from Creyente.components.navbar import navbar
 from Creyente.components.footer import footer
-from Creyente.views.header.header import header
-from Creyente.views.links.links import links
-from Creyente.views.Sponsors.sponsors import sponsors
+from Creyente.views.header import header
+from Creyente.views.links import links
+from Creyente.views.sponsors import sponsors
 import Creyente.estilo.estilo as styles
 from Creyente.estilo.estilo import Size,EmSize
 
