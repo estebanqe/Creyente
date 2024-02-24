@@ -7,8 +7,8 @@ from Creyente.views.Sponsors.sponsors import sponsors
 import Creyente.estilo.estilo as styles
 from Creyente.estilo.estilo import Size,EmSize
 
-class State(rx.State):
-    pass
+#class State(rx.State):
+ #   pass
 
 
 def index() -> rx.Component:
